@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="Center">Centro.</h1>
+    <h2 align="Left">Esquerda.</h2>
+    <h3 align="right">Direita.</h3> 
+    <h4>Simples.</h4>
+    <h5>Simples.</h5>
+    <h6>Simples.</h6>
+    <nav> 
+        <p>
+            <a href="#Posts">Posts |</a>
+            <a href="#Lateral">Lateral |</a>
+            <a href="#Rodapé">Rodapé</a>
+        </p>
+    </nav>
+<section id="posts">
+    <article class="post">
+        <p>
+            <header>
+                <h2>Meu Blog - Primeiro Bost<h2>
+            </header>
+        </p>
+        <p>
+            <b>Negrito</b>
+            <i>Itálico</i>
+            <u>Sublinhado</u>
+            <s>Riscado</s>
+            <sup>Em cima</sub>
+            <sub>Em baixo</sub>
+        </p>
+        <p>
+            <font color="blue"> 
+                <font face="arial">
+                    Texto azul e Arial
+                </font>
+             </font>
+
+             <br>
+
+             <center>Este texto está centralizado</center>
+
+        </p>
+        <p align="justify">
+            Este texto está justificado, e vou ter que escrever um texto enorme para provar isso. Como você pode ver, o navegador está espaçando as palavras igualmente, independente da quantidade delas.
+            <br>
+            Mesmo com a quebra de linha, o texto continua justificado. Agora vou encher um pouco mais de linguíca até conseguir perceber se o texto está realmente justificado.
+            <aside id="lateral">
+            <h3>Conteúdo relacionado</h3>
+            <p>Texto explicativo para explicar, por meio de texto, uma devida explicação a ser explicada.</p>
+        </aside>
+        </p>
+    </article>
+</section>
+
+
+
+</body>
+<footer id="rodape">© 2025 - Exemplo didático de HTML </footer>
+</html>
