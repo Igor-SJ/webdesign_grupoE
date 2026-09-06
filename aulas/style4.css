@@ -1,0 +1,21 @@
+body{
+    color: black;
+    background-color: lightblue;
+
+    /*Esta parte serve para todo o body*/
+}
+
+.destaque{
+    color: red;
+    background-color: rgb(255, 255, 128);
+    /*Esta parte serve apenas para a sessão destaque*/
+}
+
+.conclusao{
+    color:blueviolet;
+    background-color: orange;
+    font-family: "Comic Sans Ms";
+    font-style: bold;
+    font-style: italic;
+    /*Esta parte, como as outras, é apenas para o div "conclusao"*/
+}

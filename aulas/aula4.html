@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Joseph</title> <!--introdução básica do HTML-->
+    <link rel="stylesheet" href="/aulas/style4.css"> <!-- link do html com o css-->
+</head>
+<body> 
+    <img src="/aulas/media/josephKiss.jpeg" alt="Joseph Paul beija." width="200" height="200"> 
+    <img src="/aulas/media/josephPeace.jpeg" alt="Joseph Paul faz sinal de paz." width="200" height="200">
+    <img src="/aulas/media/josephSleep.jpeg" alt="Joseph Paul dorme em paz." width="200" height="200">
+    <!-- Adicionando as imagens. src é a origem, alt a legenda, width e height o tamanho-->
+    
+    <video width="200" height="360" poster="/aulas/media/josephSleep.jpeg" controls>
+        <source src="/aulas/media/josephVideo.mp4" type="video/mp4">
+        Seu navegador não é compatível com este tipo de mídia.
+    </video>
+    <!-- adicionando vídeo, src é a fonte, width e height o tamanho, poster a capa, controls a existência dos controles-->
+
+    <audio src="/aulas/media/josephVoice.mp3" controls>Seu navegador não suporta este tipo de mídia.</audio>
+    <audio src="/aulas/media/josephVoice.ogg" controls>Seu navegador não suporta este tipo de mídia.</audio>
+    <!--Adicionando dois tipos de áudio diferente.-->
+    <form action="/enviar" method="POST">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite Joseph.">
+        </div>
+
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu email.">
+        </div>
+
+        <div>
+            <label for="Mensagem">Mensagem:</label>
+            <input type="text" id="mensagem" name="mensagem" required placeholder="Escreva uma mensagem para Joseph.">
+        </div>
+
+        <button type="Submit">Enviar:</button>
+    </form>
+    <!-- Adicionando um formulário que pergunta, nome email, e uma mensagem. Nota-se que o tipo de texto e-mail só pode ser enviado com um @ escrito.-->
+
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://facens.br/">
+        <img src="/aulas/media/josephSleep.jpeg" width="50" height="50">        
+    </a>
+    <a href="https://www.youtube.com/" target="blank">Youtubbing</a>
+    <!-- Diversos links, comuns, com imagem e sem fechar a página atual-->
+
+    
+    <ul>
+        <li>J de Joseph</li>
+        <li>O de Olha o Joseph</li>
+        <li>S de Sábio Joseph</li>
+        <li>E de Eu sou Joseph</li>
+        <li>P de Parabéns Joseph</li>
+        <li>H de Hello Joseph</li>
+    </ul>
+    <!-- lista sem ordem-->
+    <ol>
+        <li>J de Joseph</li>
+        <li>O de Olha o Joseph</li>
+        <li>S de Sábio Joseph</li>
+        <li>E de Eu sou Joseph</li>
+        <li>P de Parabéns Joseph</li>
+        <li>H de Hello Joseph</li>
+    </ol>
+    <!-- lista com ordem-->
+
+    <table>
+        <!-- títulos da tabela-->
+  <tr>
+    <th>Nome</th>
+    <th>Idade</th>
+    <th>Ocupação</th>
+  </tr>
+  <!--dados da tabela-->
+  <tr>
+    <td>José</td>
+    <td>18</td>
+    <td>Web Developer</td>
+  </tr>
+  <tr>
+    <td>Paulo</td>
+    <td>67</td>
+    <td>Graphic Designer</td>
+  </tr>
+</table>
+
+<!-- uso de ids e classes para personalização em css-->
+<h4 id="introducao">
+    Bem-vindo ao site do Joseph! Aqui você pode encontrar tudo sobre o Jo e talvez coisas sobre o Seph.
+</h4>
+<p class="destaque">
+    Joseph é um indivíduo incrível, cheio de talentos e habilidades impressionantes.
+</p>
+<p class="destaque">
+    Joseph é um indivíduo incrível, cheio de talentos e habilidades impressionantes.
+</p>
+
+<div class="conclusao">
+    <h3>Jo? Sé!</h3>
+    <p>José Paulo Roveri de Camargo.</p>
+    <p>ogramaC ed irevoR oluaP ésoJ.</p>
+</div>
+
+
+</body>
+<footer>
+    <h3> Adeus! obrigado por acessar o site do Joseph!!!</h3>
+</footer>
+</html>
