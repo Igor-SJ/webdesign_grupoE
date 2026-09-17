@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MINIONS:Aprenda história com eles!</title>
+    <meta name="description" content="Aprenda história clássica de maneira lúdica com ajuda da franquia Minions.">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <a href="#inicio">
+                <li>Início.</li>
+            </a>
+            <a>
+                <li>Meio.
+                    <br>
+                    <ul>
+                        <a href="#gelo"><li>A grande Era do Gelo.</li></a>
+                        <a href="#goops"><li>Alguma coisa.</li></a>
+                        <a href="#glbis"></a><li>Outra coisa.</li></a>
+                    </ul>
+                </li>
+            </a>
+            <a href="#fim">
+                <li>Fim.</li>
+            </a>
+        </ul>
+    </nav>
+
+    <h1 id="inicio">Minions não são apenas criaturas bobas!!!</h1>
+    <h2>Conceitualmente, eles são muito mais complexos...</h2>
+    <img src="media/minionGladiador.jpeg" alt="Foto ilustrativa de um Minion vestido por roupas de gladiador."
+        width="50%" />
+    <p class="paragraphs">Minions, de acordo com os filmes renomados da Illumination, são seres imortais.
+        Isso já é suficiente para torná-los em personagens muito mais interessantes que a maioria
+        do cânone cinematrográfico mundial.
+    </p>
+    <p class="paragraphs">No filme Minions, podemos ver como as criaturinhas amarelas evoluiram de seres unicelulares
+        eucariontes
+        para bichos multicelulares e extremamente inteligentes. Desde a era Paleozoica, eles habitaram a terra, milhares
+        de anos
+        antes dos seres humanos. Por isso, iremos citar alguns dos eventos históricos mais importantes já presenciados
+        pelos esbugalhados dos Minions!
+    </p>
+    <br> <br>
+    <h2 id="gelo">Eles presenciaram a grande Era do Gelo.</h2>
+    <p class="paragraphs">A Era do Gelo não apenas foi um outro filme muito interessante, foi um período na história do
+        Planeta Terra em que
+        todas as formas de vida passaram por um enorme risco de extinção.
+        Após o choque do grande meteoro que extinguiu os dinossauros e deixou uma enorme cratera no Golfo do Méxixo,
+        uma enorme nuvem de fumaça escura cobriu todo o Sol por anos. Isso impedia que a luz do Sol entrasse
+        apropriadamente na atmosfera terrestre,
+        fazendo as temperaturas mundiais despencarem.
+    </p>
+    <h3>Mesmo assim, eles viveram!</h3>
+    <img src="media/minionCavernoso.jpeg" alt="Minion vestido em uniforme tradicional de homem das cavernas." width="175">
+    <p class="paragraphs">A ciência já desenvolveu muitas maravilhas. Corações mecânicos, cura de doenças, aviões mais rápidos que o som, satélites em outros planetas.
+        Mesmo assim, ela ainda não consegue explicar como os Minions sobreviveram ao maior desastre climático na história da Terra. Seriam seus corpos
+        amarelos maleáveis o suficiente para resistir ao impacto? Ou será que eles, estrategistas profissionais, já sabiam da vinda do meteoro, e se esconderam
+        em cavernas? É impossível saber, pois os Minions apenas inventariam a escrita alguns milhares de anos depois.
+    </p>
+
+</body>
+
+</html>
